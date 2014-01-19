@@ -19,6 +19,9 @@
 		2112EA9E188AEB97005F1A3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2112EA86188AEB97005F1A3F /* UIKit.framework */; };
 		2112EAA6188AEB97005F1A3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2112EAA4188AEB97005F1A3F /* InfoPlist.strings */; };
 		2112EAA8188AEB97005F1A3F /* ToDoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112EAA7188AEB97005F1A3F /* ToDoAppTests.m */; };
+		2112EAB3188AEBCA005F1A3F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112EAB2188AEBCA005F1A3F /* TableViewController.m */; };
+		2112EAB6188B0262005F1A3F /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2112EAB5188B0262005F1A3F /* CustomCell.m */; };
+		2112EABC188B03B2005F1A3F /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112EABB188B03B2005F1A3F /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		2112EAA3188AEB97005F1A3F /* ToDoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoAppTests-Info.plist"; sourceTree = "<group>"; };
 		2112EAA5188AEB97005F1A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2112EAA7188AEB97005F1A3F /* ToDoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppTests.m; sourceTree = "<group>"; };
+		2112EAB1188AEBCA005F1A3F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		2112EAB2188AEBCA005F1A3F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		2112EAB4188B0262005F1A3F /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
+		2112EAB5188B0262005F1A3F /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
+		2112EABB188B03B2005F1A3F /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +116,12 @@
 			isa = PBXGroup;
 			children = (
 				2112EA91188AEB97005F1A3F /* AppDelegate.h */,
+				2112EAB4188B0262005F1A3F /* CustomCell.h */,
+				2112EAB5188B0262005F1A3F /* CustomCell.m */,
+				2112EABB188B03B2005F1A3F /* CustomCell.xib */,
 				2112EA92188AEB97005F1A3F /* AppDelegate.m */,
+				2112EAB1188AEBCA005F1A3F /* TableViewController.h */,
+				2112EAB2188AEBCA005F1A3F /* TableViewController.m */,
 				2112EA94188AEB97005F1A3F /* Images.xcassets */,
 				2112EA89188AEB97005F1A3F /* Supporting Files */,
 			);
@@ -219,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2112EABC188B03B2005F1A3F /* CustomCell.xib in Resources */,
 				2112EA8D188AEB97005F1A3F /* InfoPlist.strings in Resources */,
 				2112EA95188AEB97005F1A3F /* Images.xcassets in Resources */,
 			);
@@ -240,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2112EA93188AEB97005F1A3F /* AppDelegate.m in Sources */,
+				2112EAB3188AEBCA005F1A3F /* TableViewController.m in Sources */,
+				2112EAB6188B0262005F1A3F /* CustomCell.m in Sources */,
 				2112EA8F188AEB97005F1A3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
